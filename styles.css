@@ -1,0 +1,22 @@
+.songs-search-result {
+			border: 1px solid Gray;
+			margin-bottom: 5px;
+			padding: 5px;
+		}
+
+		.songs-search-result  .label{
+			display: inline-block;
+			text-align: left;
+			margin-left: 0px;
+			margin-top: 0px;
+			color: white;
+		}
+
+		  .jumbotron {
+      background-color: #f4511e;
+      color: white;
+  }
+p {
+	color: white;
+	font-weight: 200;
+  }

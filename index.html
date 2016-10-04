@@ -1,0 +1,36 @@
+<html>
+	<head>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+		<title>iTunes - Music Search in javascript</title>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
+		
+<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap.css.map">
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+
+	<body>
+		<div class="jumbotron text-center">
+		<h1>Welcome to Itunes Search!</h1>
+		<form class="form-inline">
+		<input class="form-control" size="50" placeholder="Search Critiria..." type="text" id="search-keyword" title="Enter Search Keyword" required>
+		<br /><br />
+		
+		<input class="btn btn-danger" type="button" value="Perform iTunes Search" onclick="Search();" />
+		</form>
+		
+		<div id="itunes-results">
+
+		</div>
+		
+		</div>
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
+
+<!-- onblur="this.value=removeSpacesInSearch(this.value);" -->
